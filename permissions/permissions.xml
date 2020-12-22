@@ -206,37 +206,18 @@
     </Logs>
     <DataShapes>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
-            <Create>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Create>
-            <Read>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-                <Principal
-                 isPermitted="true"
-                 name="ComposerUsers"
-                 type="Group"></Principal>
-            </Read>
-            <Update>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Update>
-            <Delete>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Delete>
+            <Create></Create>
+            <Read></Read>
+            <Update></Update>
+            <Delete></Delete>
             <Metadata></Metadata>
         </DesignTimePermissions>
         <RunTimePermissions></RunTimePermissions>
@@ -244,33 +225,18 @@
     </DataShapes>
     <ThingShapes>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
-            <Create>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Create>
-            <Read>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Read>
-            <Update>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Update>
-            <Delete>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Delete>
+            <Create></Create>
+            <Read></Read>
+            <Update></Update>
+            <Delete></Delete>
             <Metadata></Metadata>
         </DesignTimePermissions>
         <RunTimePermissions></RunTimePermissions>
@@ -312,33 +278,18 @@
     </ThingPackages>
     <ThingTemplates>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
-            <Create>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Create>
-            <Read>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Read>
-            <Update>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Update>
-            <Delete>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Delete>
+            <Create></Create>
+            <Read></Read>
+            <Update></Update>
+            <Delete></Delete>
             <Metadata></Metadata>
         </DesignTimePermissions>
         <RunTimePermissions></RunTimePermissions>
@@ -396,7 +347,12 @@
     </ApplicationKeys>
     <Dashboards>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
             <Create>
@@ -468,7 +424,12 @@
     </LocalizationTables>
     <StateDefinitions>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
             <Create>
@@ -506,7 +467,12 @@
     </StateDefinitions>
     <StyleDefinitions>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
             <Create>
@@ -560,7 +526,12 @@
     </StyleDefinitions>
     <StyleThemes>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
             <Create>
@@ -632,37 +603,18 @@
     </Widgets>
     <Mashups>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
-            <Create>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Create>
-            <Read>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-                <Principal
-                 isPermitted="true"
-                 name="ComposerUsers"
-                 type="Group"></Principal>
-            </Read>
-            <Update>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Update>
-            <Delete>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Delete>
+            <Create></Create>
+            <Read></Read>
+            <Update></Update>
+            <Delete></Delete>
             <Metadata></Metadata>
         </DesignTimePermissions>
         <RunTimePermissions></RunTimePermissions>
@@ -670,7 +622,12 @@
     </Mashups>
     <Menus>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
             <Create>
@@ -688,6 +645,10 @@
                  isPermitted="true"
                  name="ComposerUsers"
                  type="Group"></Principal>
+                <Principal
+                 isPermitted="true"
+                 name="SSOAuthenticatorUsers"
+                 type="Group"></Principal>
             </Read>
             <Update>
                 <Principal
@@ -703,12 +664,41 @@
             </Delete>
             <Metadata></Metadata>
         </DesignTimePermissions>
-        <RunTimePermissions></RunTimePermissions>
+        <RunTimePermissions>
+            <Permissions
+             resourceName="*">
+                <PropertyRead>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                </PropertyRead>
+                <PropertyWrite>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                </PropertyWrite>
+                <ServiceInvoke>
+                    <Principal
+                     isPermitted="true"
+                     name="SSOAuthenticatorUsers"
+                     type="Group"></Principal>
+                </ServiceInvoke>
+                <EventInvoke></EventInvoke>
+                <EventSubscribe></EventSubscribe>
+            </Permissions>
+        </RunTimePermissions>
         <Entities></Entities>
     </Menus>
     <MediaEntities>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
             <Create>
@@ -1126,33 +1116,18 @@
     </Subsystems>
     <Things>
         <VisibilityPermissions>
-            <Visibility></Visibility>
+            <Visibility>
+                <Principal
+                 isPermitted="true"
+                 name="IOT"
+                 type="Organization"></Principal>
+            </Visibility>
         </VisibilityPermissions>
         <DesignTimePermissions>
-            <Create>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Create>
-            <Read>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Read>
-            <Update>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Update>
-            <Delete>
-                <Principal
-                 isPermitted="true"
-                 name="Administrators"
-                 type="Group"></Principal>
-            </Delete>
+            <Create></Create>
+            <Read></Read>
+            <Update></Update>
+            <Delete></Delete>
             <Metadata></Metadata>
         </DesignTimePermissions>
         <RunTimePermissions></RunTimePermissions>
