@@ -7,20 +7,15 @@
  revision="2"
  schemaVersion="1052"
  universal="password">
-    <ApplicationKeys>
-        <ApplicationKey
-         clientName=""
+    <StyleDefinitions>
+        <StyleDefinition
          description=""
          documentationContent=""
-         expirationDate="2022-05-01T16:57:00.000Z"
          homeMashup=""
-         ipWhitelist=""
-         keyId=""
-         lastModifiedDate="2020-12-22T22:10:24.124+08:00"
-         name="CICDAppKey"
-         projectName="CICDProject"
-         tags=""
-         userNameReference="Administrator">
+         lastModifiedDate="2021-02-09T16:45:11.275+08:00"
+         name="styleCheckbox"
+         projectName="TestCICDProject"
+         tags="">
             <avatar></avatar>
             <DesignTimePermissions>
                 <Create></Create>
@@ -35,6 +30,24 @@
             </VisibilityPermissions>
             <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
             <ConfigurationTables></ConfigurationTables>
-        </ApplicationKey>
-    </ApplicationKeys>
+            <content>
+            <![CDATA[
+            {
+              "backgroundColor" : "",
+              "displayString" : "",
+              "fontEmphasisBold" : false,
+              "fontEmphasisItalic" : false,
+              "fontEmphasisUnderline" : false,
+              "foregroundColor" : "",
+              "image" : "",
+              "lineColor" : "",
+              "lineStyle" : "solid",
+              "lineThickness" : 1,
+              "secondaryBackgroundColor" : "",
+              "textSize" : "normal"
+            }
+            ]]>
+            </content>
+        </StyleDefinition>
+    </StyleDefinitions>
 </Entities>

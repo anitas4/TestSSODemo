@@ -15,9 +15,9 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2020-12-17T22:58:48.398+08:00"
-         name="GitTestThing"
-         projectName="CICDProject"
+         lastModifiedDate="2021-02-09T16:45:11.291+08:00"
+         name="TestDemoThing"
+         projectName="TestCICDProject"
          published="false"
          tags=""
          thingTemplate="GenericThing"
@@ -37,42 +37,15 @@
             <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
             <ConfigurationTables></ConfigurationTables>
             <ThingShape>
-                <PropertyDefinitions>
-                    <PropertyDefinition
-                     aspect.cacheTime="0.0"
-                     aspect.dataChangeType="VALUE"
-                     baseType="STRING"
-                     category=""
-                     description=""
-                     isLocalOnly="false"
-                     name="username"
-                     ordinal="2"></PropertyDefinition>
-                </PropertyDefinitions>
-                <ServiceDefinitions>
-                    <ServiceDefinition
-                     aspect.isAsync="false"
-                     category=""
-                     description=""
-                     isAllowOverride="false"
-                     isLocalOnly="false"
-                     isOpen="false"
-                     isPrivate="false"
-                     name="test">
-                        <ResultType
-                         baseType="NOTHING"
-                         description=""
-                         name="result"
-                         ordinal="0"></ResultType>
-                        <ParameterDefinitions></ParameterDefinitions>
-                    </ServiceDefinition>
-                </ServiceDefinitions>
+                <PropertyDefinitions></PropertyDefinitions>
+                <ServiceDefinitions></ServiceDefinitions>
                 <EventDefinitions></EventDefinitions>
                 <ServiceMappings></ServiceMappings>
                 <ServiceImplementations>
                     <ServiceImplementation
                      description=""
                      handlerName="Script"
-                     name="test">
+                     name="RunAllTests">
                         <ConfigurationTables>
                             <ConfigurationTable
                              description=""
@@ -90,7 +63,36 @@
                                 </DataShape>
                                 <Rows>
                                     <Row>
-                                        <code></code>
+                                        <code>
+                                        <![CDATA[
+                                        var params = {
+                                            infoTableName : "InfoTable",
+                                            dataShapeName : "TestResultData"
+                                        };
+                                        
+                                        // CreateInfoTableFromDataShape(infoTableName:STRING("InfoTable"), dataShapeName:STRING):INFOTABLE(TestResultData)
+                                        var result = Resources["InfoTableFunctions"].CreateInfoTableFromDataShape(params);
+                                        
+                                        // TestResultData entry object
+                                        var FirstEntry = new Object();
+                                        FirstEntry.comments = "test result that passed the verification"; // STRING
+                                        FirstEntry.inputParams = {"name": "Mike"}; // JSON
+                                        FirstEntry.expectedOutput = {"name": "Mike"}; //JSON
+                                        FirstEntry.passed = true; // BOOLEAN
+                                        FirstEntry.testName = "Test for UserName Passed"; // STRING [Primary Key]
+                                        FirstEntry.timestamp = new Date(); // DATETIME [Primary Key]
+                                        
+                                        var SecondEntry = new Object();
+                                        SecondEntry.comments = "test result that failed the verification"; // STRING
+                                        SecondEntry.inputParams = {"name": "John"}; // JSON
+                                        SecondEntry.expectedOutput = {"name": "Mike"}; // JSON
+                                        SecondEntry.passed = false; // BOOLEAN
+                                        SecondEntry.testName = "Test for UserName Failed"; // STRING [Primary Key]
+                                        SecondEntry.timestamp = new Date(); // DATETIME [Primary Key]
+                                        result.AddRow(FirstEntry);
+                                        result.AddRow(SecondEntry);
+                                        ]]>
+                                        </code>
                                     </Row>
                                 </Rows>
                             </ConfigurationTable>
@@ -103,11 +105,12 @@
             <RemotePropertyBindings></RemotePropertyBindings>
             <RemoteServiceBindings></RemoteServiceBindings>
             <RemoteEventBindings></RemoteEventBindings>
-            <AlertConfigurations>
-                <AlertDefinitions
-                 name="username"></AlertDefinitions>
-            </AlertConfigurations>
-            <ImplementedShapes></ImplementedShapes>
+            <AlertConfigurations></AlertConfigurations>
+            <ImplementedShapes>
+                <ImplementedShape
+                 name="TestingTS"
+                 type="ThingShape"></ImplementedShape>
+            </ImplementedShapes>
             <ThingProperties></ThingProperties>
         </Thing>
     </Things>

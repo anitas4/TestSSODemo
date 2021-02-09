@@ -12,9 +12,9 @@
          description=""
          documentationContent=""
          homeMashup=""
-         lastModifiedDate="2020-12-17T22:58:48.400+08:00"
-         name="StyleCICD"
-         projectName="CICDProject"
+         lastModifiedDate="2021-02-09T16:45:11.273+08:00"
+         name="CICDCSSStyle"
+         projectName="TestCICDProject"
          tags="">
             <avatar></avatar>
             <DesignTimePermissions>
@@ -33,17 +33,17 @@
             <content>
             <![CDATA[
             {
-              "backgroundColor" : "rgba(198,208,109,1)",
+              "backgroundColor" : "rgba(249,239,107,1)",
               "displayString" : "",
-              "fontEmphasisBold" : true,
+              "fontEmphasisBold" : false,
               "fontEmphasisItalic" : false,
               "fontEmphasisUnderline" : false,
               "foregroundColor" : "",
               "image" : "",
-              "lineColor" : "",
+              "lineColor" : "rgba(0,0,0,1)",
               "lineStyle" : "solid",
               "lineThickness" : 1,
-              "secondaryBackgroundColor" : "",
+              "secondaryBackgroundColor" : "rgba(213,124,186,1)",
               "textSize" : "normal"
             }
             ]]>

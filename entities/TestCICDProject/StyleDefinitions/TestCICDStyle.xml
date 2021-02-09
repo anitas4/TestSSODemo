@@ -7,21 +7,14 @@
  revision="2"
  schemaVersion="1052"
  universal="password">
-    <Projects>
-        <Project
-         artifactId=""
-         dependsOn="{&quot;extensions&quot;:&quot;&quot;,&quot;projects&quot;:&quot;&quot;}"
+    <StyleDefinitions>
+        <StyleDefinition
          description=""
          documentationContent=""
-         groupId=""
          homeMashup=""
-         lastModifiedDate="2020-12-11T00:33:22.533+08:00"
-         minPlatformVersion=""
-         name="CICDProject"
-         packageVersion="1.0.0"
-         projectName="CICDProject"
-         publishResult=""
-         state="DRAFT"
+         lastModifiedDate="2021-02-09T16:45:11.276+08:00"
+         name="TestCICDStyle"
+         projectName="TestCICDProject"
          tags="">
             <avatar></avatar>
             <DesignTimePermissions>
@@ -37,6 +30,24 @@
             </VisibilityPermissions>
             <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
             <ConfigurationTables></ConfigurationTables>
-        </Project>
-    </Projects>
+            <content>
+            <![CDATA[
+            {
+              "backgroundColor" : "rgba(203,93,142,1)",
+              "displayString" : "",
+              "fontEmphasisBold" : false,
+              "fontEmphasisItalic" : false,
+              "fontEmphasisUnderline" : false,
+              "foregroundColor" : "",
+              "image" : "",
+              "lineColor" : "",
+              "lineStyle" : "solid",
+              "lineThickness" : 1,
+              "secondaryBackgroundColor" : "",
+              "textSize" : "normal"
+            }
+            ]]>
+            </content>
+        </StyleDefinition>
+    </StyleDefinitions>
 </Entities>

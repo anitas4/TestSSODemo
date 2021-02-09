@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b90"
+ majorVersion="8"
+ minorVersion="5"
+ modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
+ revision="2"
+ schemaVersion="1052"
+ universal="password">
+    <StyleDefinitions>
+        <StyleDefinition
+         description=""
+         documentationContent=""
+         homeMashup=""
+         lastModifiedDate="2021-02-09T16:45:11.277+08:00"
+         name="DemoStyleCICD"
+         projectName="TestCICDProject"
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <content>
+            <![CDATA[
+            {
+              "backgroundColor" : "rgba(249,239,107,1)",
+              "displayString" : "",
+              "fontEmphasisBold" : false,
+              "fontEmphasisItalic" : false,
+              "fontEmphasisUnderline" : false,
+              "foregroundColor" : "",
+              "image" : "",
+              "lineColor" : "rgba(0,0,0,1)",
+              "lineStyle" : "solid",
+              "lineThickness" : 1,
+              "secondaryBackgroundColor" : "",
+              "textSize" : "normal"
+            }
+            ]]>
+            </content>
+        </StyleDefinition>
+    </StyleDefinitions>
+</Entities>

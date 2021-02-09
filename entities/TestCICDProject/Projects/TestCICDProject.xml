@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ build="b90"
+ majorVersion="8"
+ minorVersion="5"
+ modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
+ revision="2"
+ schemaVersion="1052"
+ universal="password">
+    <Projects>
+        <Project
+         artifactId=""
+         dependsOn="{&quot;extensions&quot;:&quot;&quot;,&quot;projects&quot;:&quot;&quot;}"
+         description=""
+         documentationContent=""
+         groupId=""
+         homeMashup=""
+         lastModifiedDate="2021-02-09T16:45:11.289+08:00"
+         minPlatformVersion=""
+         name="TestCICDProject"
+         packageVersion="1.0.0"
+         projectName="TestCICDProject"
+         publishResult=""
+         state="DRAFT"
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+        </Project>
+    </Projects>
+</Entities>
