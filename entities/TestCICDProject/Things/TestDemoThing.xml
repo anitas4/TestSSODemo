@@ -15,7 +15,7 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2021-02-09T16:45:11.291+08:00"
+         lastModifiedDate="2021-02-10T21:12:03.057+08:00"
          name="TestDemoThing"
          projectName="TestCICDProject"
          published="false"
@@ -82,15 +82,8 @@
                                         FirstEntry.testName = "Test for UserName Passed"; // STRING [Primary Key]
                                         FirstEntry.timestamp = new Date(); // DATETIME [Primary Key]
                                         
-                                        var SecondEntry = new Object();
-                                        SecondEntry.comments = "test result that failed the verification"; // STRING
-                                        SecondEntry.inputParams = {"name": "John"}; // JSON
-                                        SecondEntry.expectedOutput = {"name": "Mike"}; // JSON
-                                        SecondEntry.passed = false; // BOOLEAN
-                                        SecondEntry.testName = "Test for UserName Failed"; // STRING [Primary Key]
-                                        SecondEntry.timestamp = new Date(); // DATETIME [Primary Key]
+                                        
                                         result.AddRow(FirstEntry);
-                                        result.AddRow(SecondEntry);
                                         ]]>
                                         </code>
                                     </Row>
