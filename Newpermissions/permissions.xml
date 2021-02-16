@@ -1050,6 +1050,21 @@
                 <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
+             name="GraphMashup1"
+             type="Mashup">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
              name="CICDTestMashup"
              type="Mashup">
                 <VisibilityPermissions>
